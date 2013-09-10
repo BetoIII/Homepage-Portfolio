@@ -4,17 +4,17 @@ ol{
 }
 
 li{
-	background-color:rgb(190,190,190);
+	background-color:rgb(220,220,220);
 	border-radius:5px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
-	padding:20px 20px;
+	padding:10px 20px;
 	margin:5px;
 }
-
 .tumblr_title{
 	color: #494949;
-    font-size: 16px;
+    font-size: 18px;
+	line-height:140%;
     font-weight: bold;
     padding: 10px 10px 0 10px;
 }
@@ -24,7 +24,9 @@ li{
     font-size: 14px;
     padding: 10px 10px 0 10px;
 }
-
+.tumblr_body p{
+	line-height:150%;
+}
 .tumblr_body img{
 	display:block;
 	margin-left:auto;
@@ -38,6 +40,27 @@ li{
 .tumblr_photo{
 	margin-left:auto;
 	margin-right:auto;
+}
+.tumblr_video{
+	width:400px;
+	margin:auto;
+}
+.tumblr_caption{
+	margin-top:10px;
+	font-weight:bold;
+	text-align:center;
+}
+.tumblr_body ul{
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+.tumblr_body li{
+	padding:5px;
 }
 
 /*ORIGINAL TUMLBR THEME CSS*/
