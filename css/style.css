@@ -71,15 +71,20 @@
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	padding:10px;
+	height:480px;
 }
-
+@media (min-width:979px) and (max-width:1200px){
+	.description{
+		height:385px;
+	}
+}
 .description p{
 	line-height:1.5em;
 }
 
 .skills{
 	text-align:left;
-	margin-top:5px;
+	margin-top:10px;
 	background-color: rgba(200,200,200,0.3);
 	-webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
 	-moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
