@@ -181,7 +181,8 @@ body {
   margin-bottom: -70px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
 }
 .navbar-wrapper .navbar {
-  
+  width:770px;
+  margin:auto;
 }
 
 /* Remove border and change up box shadow for more contrast */
@@ -195,7 +196,7 @@ body {
 
 /* Downsize the brand/project name a bit */
 .navbar .brand {
-  padding: 25px 48px 16px; /* Increase vertical padding to match navbar links */
+  padding: 25px 45px 16px; /* Increase vertical padding to match navbar links */
   font-size: 32px;
   font-weight: bold;
   text-shadow: 0 -1px 0 rgba(0,0,0,.5);
