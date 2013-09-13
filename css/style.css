@@ -1,6 +1,7 @@
 #home { 
-  background: url(../images/home-bg.JPG) 50% 0 repeat fixed; min-height: 700px; 
-  height: 700px; 
+  background: url(../images/home-bg.JPG) 50% 0 repeat fixed;
+  min-height: 1100px; 
+  height: 1100px; 
   margin: 0 auto; 
   width: 100%; 
   max-width: 1920px; 
@@ -45,11 +46,83 @@
 .contact-icons a{
 	text-decoration:none;
 }
-
 .contact-icons i:hover{
 	color:#999;
 }
-
+.blue{
+	background-color:rgba(75, 129, 190, 0.8);
+}
+.bubble-container{
+	position:relative;
+	color:rgb(60,60,60);
+}
+.bubble-container a{
+	color:rgb(60,60,60);
+}
+.bubble-1{
+	position:absolute;
+	top:400px;
+	left:41%;
+	height:250px;
+	width:250px;
+	border-radius:250px;
+	background-color:rgba(75, 129, 190, 0.8);
+}
+.bubble-container h2{
+	position:relative;
+	top:40px;
+	opacity:0;
+}
+.bubble-container .hello{
+	top:85px;
+	opacity:1;
+	margin-bottom:100px;
+}
+.bubble-container .thesis{
+	font-size:115%;
+}
+.bubble-2{
+	position:absolute;
+	top:250px;
+	left:20%;
+	height:150px;
+	width:150px;
+	border-radius:150px;
+	background-color:rgba(200,200,200,.9);
+}
+.bubble-2 i{
+	position:relative;
+	top:20px;
+	left:33%;
+}
+.bubble-3{
+	position:absolute;
+	top:150px;
+	left:47%;
+	height:100px;
+	width:100px;
+	border-radius:100px;
+	background-color:rgba(200,200,200,.9);
+}
+.bubble-3 i{
+	position:relative;
+	top:20px;
+	left:31%;
+}
+.bubble-4{
+	position:absolute;
+	top:250px;
+	left:70%;
+	height:150px;
+	width:150px;
+	border-radius:150px;
+	background-color:rgba(200,200,200,.9);
+}
+.bubble-4 i{
+	position:relative;
+	top:20px;
+	left:39%;
+}
 .margin-auto{
 	margin-left:auto;
 	margin-right:auto;
