@@ -32,7 +32,9 @@ li{
 	margin-left:auto;
 	margin-right:auto;
 }
-
+.tumblr_post{
+	margin-bottom:25px;
+}
 .tumblr_photo_post img{
 	display:block;
 }
